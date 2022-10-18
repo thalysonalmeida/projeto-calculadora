@@ -13,7 +13,7 @@ html{
 
 body{
     align-items: center;   
-    background: rgba(0, 0, 0, 0.75);
+    background: rgb(0, 0, 0);
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-display: swap;
@@ -26,11 +26,11 @@ body{
     -webkit-backdrop-filter: blur(5.5x);
     border-radius: 16px;    
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
+    color: #000000;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    background: rgba(255, 255, 255, 0.30);
-    border: 1px solid rgba(255, 255, 255, 0.34);
+    background: rgba(216, 216, 216, 0.404);
+    border: 1px solid rgb(0, 0, 0);
     flex-basis: 400px;
     height: 540px;
     padding: 20px 35px;
@@ -40,14 +40,14 @@ body{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     color: #232323;
     font-size: 35px;
     overflow: auto;
     padding: 20px;
-    text-align: right;
+    text-align: right;//
     width: 326px;
 }
 
